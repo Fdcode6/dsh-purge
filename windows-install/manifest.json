@@ -60,18 +60,23 @@
     },
     {
       "path": "docs/Windows安装与环境配置指南.md",
-      "size": 40650,
-      "sha256": "a176beef7b6e7c564f00cf943af8fb6e4bf8eb609fdc63facf017e10724f471a"
+      "size": 41232,
+      "sha256": "1a4d0c39ee460a6cac87ecfc428e7e9744adedbdb138d358eb469feed224a9df"
     },
     {
       "path": "docs/打包验证结果.md",
-      "size": 3449,
-      "sha256": "582d5f57f18e95589350c1d45759ea5e3fdcb905fac4e74699f12a9bae7d3f52"
+      "size": 3898,
+      "sha256": "7a8825ee8a4286a2431f25971699871ffe08008d692d1579b1c01b2654ed3ac7"
     },
     {
       "path": "docs/文件来源.md",
       "size": 1584,
       "sha256": "57caf37530f817361daaebb5fe038b37d15812b3bfd145812d6156b8bc12f953"
+    },
+    {
+      "path": "docs/红队预设加载修复.md",
+      "size": 2312,
+      "sha256": "83882d3ce25984df0fbf7566d67870df237a8759a6f65fab1d6ab6fe1a48789e"
     },
     {
       "path": "installers/deepseek-harness-0.2.1-rc.2-win-x64.exe",
@@ -112,6 +117,11 @@
       "path": "installers/python-3.13.1-amd64.exe",
       "size": 28688288,
       "sha256": "6b33fa9a439a86f553f9f60e538ccabc857d2f308bc77c477c04a46552ade81f"
+    },
+    {
+      "path": "patches/preset-compat.js",
+      "size": 3555,
+      "sha256": "6a5894d6b105c63fb4cde0b870c67dd231203934eb8e844483d1f74646f92369"
     },
     {
       "path": "portable-tools.json",
@@ -230,8 +240,8 @@
     },
     {
       "path": "README.md",
-      "size": 6459,
-      "sha256": "88033a22a5eb2a306859d73b6b61044ee30c98c36dd8fcb2816f8fe05ad5c275"
+      "size": 6851,
+      "sha256": "b24b5d84ac2c7b2e794b375aaeb35c41b9f3b5417a24f9f548c5e8cc791c6835"
     },
     {
       "path": "runtime/node-v26.8.1-win-x64.zip",
@@ -249,9 +259,14 @@
       "sha256": "b8d2d61845e5e29d39b0a72f73cf51f64734b18f7d93f2ab3d50c55df8b32b82"
     },
     {
+      "path": "scripts/fix_preset.py",
+      "size": 1666,
+      "sha256": "e11f95afb9b01dbb6e547e75e4e29b259b67d2c9bc352a750accccf017a98c3c"
+    },
+    {
       "path": "scripts/offline_setup.py",
-      "size": 9736,
-      "sha256": "33eaaa1454ad8a9176322bb1a797bce75674722e114149b16bd317c860cac36b"
+      "size": 9972,
+      "sha256": "6bee983166a1f79bfcbd8362c5c6d758dfdd56285b9790f6377161c672782075"
     },
     {
       "path": "scripts/Restore-Installer.ps1",

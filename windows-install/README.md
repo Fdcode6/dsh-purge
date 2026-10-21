@@ -9,7 +9,7 @@
 3. 菜单 1 安装 Python 3.13.1 x64；已经有兼容 Python 3.13 x64 时可跳过。离线 wheel 针对 CPython 3.13 / Windows x64，不适用于 3.12、3.14 或 ARM64 原生解释器。
 4. 菜单 2 安装官方 Harness。启动一次，完成必要的初始化/登录，让它创建 `desktop` profile，随后从托盘彻底退出。已有兼容宿主可跳过安装。
 5. 菜单 3 安装 Nmap 7.992 和附带的 Npcap。按向导完成，不要留下未完成的驱动安装窗口。管理员确认由用户操作。
-6. 菜单 4 配置插件和环境。确认实际 `DSH_HOME`；通常按 Enter 使用用户目录下 `.dsh`。脚本会备份现有配置、安装本地源码快照、修复 `{{cwd}}`、安装工具和 Python 依赖，并写入本机绝对路径。
+6. 菜单 4 配置插件和环境。确认实际 `DSH_HOME`；通常按 Enter 使用用户目录下 `.dsh`。脚本会备份现有配置、安装本地源码快照、修复 `{{cwd}}` 和红队预设 `toolFilter` 兼容错误、安装工具和 Python 依赖，并写入本机绝对路径。
 7. 菜单 5 检查 15 项工具。重新打开 Harness，在插件中查看“环境适配”，按完整指南完成“清洗 → 应用”、重启及普通对话验证。
 
 启动器的菜单使用英文，具体含义如上。可以把这个文件和 `docs/Windows安装与环境配置指南.md` 一起交给另一台电脑上的 AI 助手。
@@ -86,3 +86,7 @@ git clone --branch windows-offline-setup https://github.com/Fdcode6/dsh-purge.gi
 直接使用 Python 配置脚本前，请先运行 `scripts/Restore-Installer.ps1`，或先启动一次双击入口。合并需要额外约 289 MB 磁盘空间。GitHub Download ZIP 应选择本分支；完整解压后再启动。
 
 系统要求：Windows 10/11 x64，推荐 Windows 11；不支持 Windows 7/8/8.1 或 32 位 Windows。本分支保留上游许可，不改变各组件的授权条件。
+
+## 红队模式加载失败修复
+
+若出现 `toolFilter is no longer supported`，请看 [红队预设加载修复](docs/红队预设加载修复.md)。新安装的菜单 4 已包含修复；已有安装可单独运行修复脚本，无需重装工具环境。本机已重启确认 `ok=true`、`broken=null`，完整演练任务尚未验证。

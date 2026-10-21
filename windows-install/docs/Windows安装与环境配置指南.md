@@ -740,3 +740,9 @@ frp 解压后有嵌套目录，必须使用真实路径。若使用不同版本�
 - [Masscan](https://github.com/robertdavidgraham/masscan)、[ksubdomain](https://github.com/knownsec/ksubdomain)、[Impacket](https://github.com/fortra/impacket)
 
 文档内下载地址和校验值基于本次本机安装记录。未来链接失效、版本变化或仓库关闭时，应如实报告，不猜测替代下载地址，也不把尚未验证的步骤写成成功。
+
+## 红队预设 toolFilter 兼容问题（2026-10-21 补充）
+
+“红队模式加载失败”与工具程序“拒绝访问”属于不同问题。当前宿主不再支持旧子智能体配置的 `toolFilter`；请按 [红队预设加载修复](红队预设加载修复.md) 操作。离线菜单 4 自动应用两个兼容补丁，已有安装可独立修复后重启。必须检查真实状态文件，不以文件复制成功代替加载成功。
+
+本机于北京时间 09:55:54 验证 `ok=true`、`phase=registered`、`broken=null`。本次未验证完整演练任务。
