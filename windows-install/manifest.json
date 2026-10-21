@@ -1,0 +1,352 @@
+{
+  "format": 1,
+  "createdAt": "2026-10-21T09:15:37.367359+08:00",
+  "target": "Windows x64 / CPython 3.13",
+  "files": [
+    {
+      "path": "checksums/checksums.txt",
+      "size": 4430,
+      "sha256": "6fceb7f75a71341b590853cdbd0a571c68168d5992c5dcec1f4d7a473a612786"
+    },
+    {
+      "path": "checksums/chisel_1.12.0_checksums.txt",
+      "size": 7927,
+      "sha256": "5799baf2d6655a9411b9da3fdbad51fe488fc450a42d7911718ea8a55dc1ae10"
+    },
+    {
+      "path": "checksums/dnsx_1.3.1_checksums.txt",
+      "size": 742,
+      "sha256": "f8e6af7efa743a506ec18b0c0b7b8c3f562dc7832b369101c3ad0fbd6e166085"
+    },
+    {
+      "path": "checksums/ffuf_2.3.0_checksums.txt",
+      "size": 1539,
+      "sha256": "e23603e903d40453c8bd477561466d494db0e502f2dccbd93926378fead9d0f0"
+    },
+    {
+      "path": "checksums/frp_sha256_checksums.txt",
+      "size": 1645,
+      "sha256": "1f501ae59dffd4db6039d33dacbb23e2625fe44d188fe1ce456466e3386918ff"
+    },
+    {
+      "path": "checksums/gogo_checksums.txt",
+      "size": 1347,
+      "sha256": "5436eb338fda529264c1ffac13313d81af91fa338c49310bed3d0a6ca323a4f8"
+    },
+    {
+      "path": "checksums/httpx_1.12.0_checksums.txt",
+      "size": 758,
+      "sha256": "541586a8d1bc7e30f3f31ff954baca6ac3e02cd74363378b7773375a78259c02"
+    },
+    {
+      "path": "checksums/node-SHASUMS256.txt",
+      "size": 3145,
+      "sha256": "4f1c377505ddc3a872821cd333b72d9743673a41c939508d877e8cd8d4379336"
+    },
+    {
+      "path": "checksums/nuclei_3.11.1_checksums.txt",
+      "size": 766,
+      "sha256": "8c55f4113c54dfa4a202e32eaaa8b78abc741a13ed7941651322748fb233a05e"
+    },
+    {
+      "path": "checksums/pnpm-registry-integrity.json",
+      "size": 800,
+      "sha256": "a89fb99a9358b2e917c5eedf9ba001e8fc28364a3e14af6cd7784dec21059d07"
+    },
+    {
+      "path": "checksums/subfinder_2.17.0_checksums.txt",
+      "size": 891,
+      "sha256": "115acad346b14570ba1fbc98adb49bce97f9ed7e451de226d4c5b0b2087e495c"
+    },
+    {
+      "path": "docs/Windows安装与环境配置指南.md",
+      "size": 40650,
+      "sha256": "a176beef7b6e7c564f00cf943af8fb6e4bf8eb609fdc63facf017e10724f471a"
+    },
+    {
+      "path": "docs/打包验证结果.md",
+      "size": 3449,
+      "sha256": "582d5f57f18e95589350c1d45759ea5e3fdcb905fac4e74699f12a9bae7d3f52"
+    },
+    {
+      "path": "docs/文件来源.md",
+      "size": 1584,
+      "sha256": "57caf37530f817361daaebb5fe038b37d15812b3bfd145812d6156b8bc12f953"
+    },
+    {
+      "path": "installers/deepseek-harness-0.2.1-rc.2-win-x64.exe",
+      "size": 289385456,
+      "sha256": "72e4a8579f11b5428dd0a1506532777924adba7ecaacc710a7e429085796537f"
+    },
+    {
+      "path": "installers/deepseek-harness-0.2.1-rc.2-win-x64.exe.part001",
+      "size": 67108864,
+      "sha256": "9493a18acbb7b041ce7b330a92021a441183da995c4741f19ec9547ba633fe5d"
+    },
+    {
+      "path": "installers/deepseek-harness-0.2.1-rc.2-win-x64.exe.part002",
+      "size": 67108864,
+      "sha256": "9866ebe69d3687f0ed0682d367cae2e26fb72b308d2e47120221bf00f7f6286c"
+    },
+    {
+      "path": "installers/deepseek-harness-0.2.1-rc.2-win-x64.exe.part003",
+      "size": 67108864,
+      "sha256": "64fcfddbe2001eb3e4c5a08a7120c10420836b21518fc636e1d14697204bb57f"
+    },
+    {
+      "path": "installers/deepseek-harness-0.2.1-rc.2-win-x64.exe.part004",
+      "size": 67108864,
+      "sha256": "6edd1402d7d51bf41e541ade1326391d18563627f151ed9b4b0f8c3953cade9a"
+    },
+    {
+      "path": "installers/deepseek-harness-0.2.1-rc.2-win-x64.exe.part005",
+      "size": 20950000,
+      "sha256": "1567b10a4ccb28c7715dd4e43e03d609454ee9762e4a2de63c7f4f7d54ef15fe"
+    },
+    {
+      "path": "installers/nmap-7.992-setup.exe",
+      "size": 37852184,
+      "sha256": "7d99ee28b2eae1a90917bb45afc42c1e900a271e7f1bbe1234cf266a819bacc8"
+    },
+    {
+      "path": "installers/python-3.13.1-amd64.exe",
+      "size": 28688288,
+      "sha256": "6b33fa9a439a86f553f9f60e538ccabc857d2f308bc77c477c04a46552ade81f"
+    },
+    {
+      "path": "portable-tools.json",
+      "size": 2739,
+      "sha256": "7f3c6fce4699808def5479e56d252c854e64b110ce0c9071c1846e2cd5967592"
+    },
+    {
+      "path": "python-wheels/blinker-1.9.0-py3-none-any.whl",
+      "size": 8458,
+      "sha256": "ba0efaa9080b619ff2f3459d1d500c57bddea4a6b424b60a91141db6fd2f08bc"
+    },
+    {
+      "path": "python-wheels/cffi-2.1.1-cp313-cp313-win_amd64.whl",
+      "size": 185688,
+      "sha256": "1aa5645c30469b09530c4ebca77ebf8f17618293c58f8549cb1a543a50236e7d"
+    },
+    {
+      "path": "python-wheels/charset_normalizer-3.5.2-cp313-cp313-win_amd64.whl",
+      "size": 206489,
+      "sha256": "78456a747de8dc58360ffa581f30a002baf5aa28cb262536545e91f113ed7639"
+    },
+    {
+      "path": "python-wheels/click-8.5.0-py3-none-any.whl",
+      "size": 125251,
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
+    },
+    {
+      "path": "python-wheels/cryptography-50.0.2-cp311-abi3-win_amd64.whl",
+      "size": 3824692,
+      "sha256": "7afa5a6602a9f29af1f3a2965f831bae7c9d5d597b7cbb716d41ab3b7d89879c"
+    },
+    {
+      "path": "python-wheels/dnspython-2.9.0-py3-none-any.whl",
+      "size": 354822,
+      "sha256": "9a4aedb833c3c1b49214d04d44d3032ab7a9135f7c1d29a549b4ff78fd82fda9"
+    },
+    {
+      "path": "python-wheels/flask-3.1.3-py3-none-any.whl",
+      "size": 103424,
+      "sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c"
+    },
+    {
+      "path": "python-wheels/impacket-0.13.1-py3-none-any.whl",
+      "size": 1751974,
+      "sha256": "3e5349c1209cdd3b90bff6f8b61c0d89aea0f3dbba6ad02ad254b9d3ef2301d0"
+    },
+    {
+      "path": "python-wheels/itsdangerous-2.2.0-py3-none-any.whl",
+      "size": 16234,
+      "sha256": "c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef"
+    },
+    {
+      "path": "python-wheels/jinja2-3.1.6-py3-none-any.whl",
+      "size": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    },
+    {
+      "path": "python-wheels/ldap3-2.9.1-py2.py3-none-any.whl",
+      "size": 432192,
+      "sha256": "5869596fc4948797020d3f03b7939da938778a0f9e2009f7a072ccf92b8e8d70"
+    },
+    {
+      "path": "python-wheels/ldapdomaindump-0.10.0-py3-none-any.whl",
+      "size": 19084,
+      "sha256": "3797259596df7a5e1fda98388c96b1d94196f5da5551f1af1aaeedda0c9f5a11"
+    },
+    {
+      "path": "python-wheels/markupsafe-3.0.4-cp313-cp313-win_amd64.whl",
+      "size": 14313,
+      "sha256": "1f1f9477e174582b0a1b583d60b66e1f2cf5d3fe12cee985e4aedf44766600e5"
+    },
+    {
+      "path": "python-wheels/pyasn1-0.6.4-py3-none-any.whl",
+      "size": 84410,
+      "sha256": "deda9277cfd454080ec40b207fb6df82206a3a2688735233cdcd8d3d565f088b"
+    },
+    {
+      "path": "python-wheels/pyasn1_modules-0.4.2-py3-none-any.whl",
+      "size": 181259,
+      "sha256": "29253a9207ce32b64c3ac6600edc75368f98473906e8fd1043bd6b5b1de2c14a"
+    },
+    {
+      "path": "python-wheels/pycparser-3.11-py3-none-any.whl",
+      "size": 51178,
+      "sha256": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80"
+    },
+    {
+      "path": "python-wheels/pycryptodomex-3.24.1-cp37-abi3-win_amd64.whl",
+      "size": 1825955,
+      "sha256": "82eb0dd8a95be97f03527b108ee49f9b86a7c534fa47fa7a510be3eab8ea9acd"
+    },
+    {
+      "path": "python-wheels/pyopenssl-26.4.0-py3-none-any.whl",
+      "size": 56026,
+      "sha256": "f0eb0cb2d581d3ad2b9c489468485e7f2ab6727d08401bcf9d824c3caddf3c1c"
+    },
+    {
+      "path": "python-wheels/pyreadline3-3.5.6-py3-none-any.whl",
+      "size": 85243,
+      "sha256": "8449b734232e42a5dcd74048e39b60db2839a4c38cf3ae2bf7707d58b5389c0d"
+    },
+    {
+      "path": "python-wheels/requirements-lock.txt",
+      "size": 382,
+      "sha256": "9e6180bca01f08f2c62f6fa09f2ccb193dd54e0d58c4efb51b69164af4463f91"
+    },
+    {
+      "path": "python-wheels/six-1.17.0-py2.py3-none-any.whl",
+      "size": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "path": "python-wheels/werkzeug-3.1.9-py3-none-any.whl",
+      "size": 228700,
+      "sha256": "6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab"
+    },
+    {
+      "path": "README.md",
+      "size": 6459,
+      "sha256": "88033a22a5eb2a306859d73b6b61044ee30c98c36dd8fcb2816f8fe05ad5c275"
+    },
+    {
+      "path": "runtime/node-v26.8.1-win-x64.zip",
+      "size": 41368195,
+      "sha256": "57693d8e93d1b04e7b7de46aca53ecd63e97564e73de36a68428d7ff08d83587"
+    },
+    {
+      "path": "runtime/pnpm-11.25.0.tgz",
+      "size": 5116259,
+      "sha256": "33dd0748f27e7916c4f1c8b6943461983e3453b06bbda6312a6280130b4881e5"
+    },
+    {
+      "path": "scripts/fix_cwd.py",
+      "size": 2022,
+      "sha256": "b8d2d61845e5e29d39b0a72f73cf51f64734b18f7d93f2ab3d50c55df8b32b82"
+    },
+    {
+      "path": "scripts/offline_setup.py",
+      "size": 9736,
+      "sha256": "33eaaa1454ad8a9176322bb1a797bce75674722e114149b16bd317c860cac36b"
+    },
+    {
+      "path": "scripts/Restore-Installer.ps1",
+      "size": 1915,
+      "sha256": "4873a3a85b588f520fe0011020643caa4b160d6861fae3c3fc8c65d93605bf84"
+    },
+    {
+      "path": "scripts/Start-Setup.ps1",
+      "size": 4401,
+      "sha256": "bb70374953a75c1789386e365272b7f156f79ac9674e2fe94c67b2d121a18d8f"
+    },
+    {
+      "path": "sources/dsh-purge-1.1.71-original.tar.gz",
+      "size": 2076146,
+      "sha256": "bb5d6bb838ed3ba253d97c184af3e9f0d44e126babb90ea98e00db5d67128c55"
+    },
+    {
+      "path": "sources/masscan-1.3.2-patched-source.zip",
+      "size": 540571,
+      "sha256": "77854710cbc185b5fec7f308ecea5cfa8a0aa7496156cfbfb395bbff0eeffd3d"
+    },
+    {
+      "path": "Start-Windows-Setup.cmd",
+      "size": 106,
+      "sha256": "293a44fbe36d5e214cdbf4c55a78eb0ebe55bd41b0911989bad743533e2111fa"
+    },
+    {
+      "path": "tools/chisel_1.12.0_windows_amd64.zip",
+      "size": 4873570,
+      "sha256": "600a8ad6f03bc7f6d285fd01ab6a3f8a657204adaafa5666ade9451d18df1ebc"
+    },
+    {
+      "path": "tools/dnsx_1.3.1_windows_amd64.zip",
+      "size": 10077681,
+      "sha256": "112c2d62d67d26a1b940ed9d10d500d2aa1ee3e3e18393d181ac4969936b9d96"
+    },
+    {
+      "path": "tools/ffuf_2.3.0_windows_amd64.zip",
+      "size": 4497208,
+      "sha256": "091c8a22d0c7fbe07d343b3ae2c213dbd37b38a8a2ed40631fcd3128ea1764fb"
+    },
+    {
+      "path": "tools/frp_0.71.1_windows_amd64.zip",
+      "size": 14152383,
+      "sha256": "b90074b2b6a1d792a7a40f085ac6d276bcab2d1bc60201f8a86ca53ce65ce821"
+    },
+    {
+      "path": "tools/fscan_2.2.2_windows_x64.exe",
+      "size": 8785920,
+      "sha256": "34973a25a3d67077fccd687a46bf6ad737ecac7ea6133a5993915901f193114a"
+    },
+    {
+      "path": "tools/gogo_windows_amd64.exe",
+      "size": 4307456,
+      "sha256": "c3f56039ca1b647d2f64a4c541877638d8d39631eeea7a23f9595cf578a46d87"
+    },
+    {
+      "path": "tools/httpx_1.12.0_windows_amd64.zip",
+      "size": 18633379,
+      "sha256": "14d8ccaa2d95ce9365162682f1a2ba3f14d2000bb4bfb0924af65ec5163ae021"
+    },
+    {
+      "path": "tools/ksubdomain-local-windows.zip",
+      "size": 12622268,
+      "sha256": "9a4f2c3d8cb09782fd66cec550d562aa2a9c11078ea4e048cc7eca01c424deea"
+    },
+    {
+      "path": "tools/ksubdomain.rar",
+      "size": 11969292,
+      "sha256": "4df2defcc02fca62858d6ab47630fa0af2a0804fafea98e1c02f4c7367eb6b62"
+    },
+    {
+      "path": "tools/masscan-local-windows.zip",
+      "size": 199811,
+      "sha256": "0aaaf92e3311c8680460392ded38d44abad0cd6ef5995c35310996de3ea695b3"
+    },
+    {
+      "path": "tools/nuclei-templates-snapshot.zip",
+      "size": 18394099,
+      "sha256": "c4eb2a6db1bb7ad839c73c703649e333fefd643d411ab80d2dc5a93c1eef6709"
+    },
+    {
+      "path": "tools/nuclei_3.11.1_windows_amd64.zip",
+      "size": 46067128,
+      "sha256": "bb6cb9ff8939b753f6fcab06fd30a15f5bc61d8382a597871334c007a85ff9d2"
+    },
+    {
+      "path": "tools/subfinder_2.17.0_windows_amd64.zip",
+      "size": 10578907,
+      "sha256": "a3fd612928d591fb31c1e59a2e06055e364421ba32251e553073f5673a2d3103"
+    },
+    {
+      "path": "tools/suo5-windows-amd64.exe",
+      "size": 11940352,
+      "sha256": "e0e83bbcdae5bddc0cf1367207f454b32b6c110ebfa2a46589c18932fdb946ac"
+    }
+  ]
+}

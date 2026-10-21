@@ -1,0 +1,72 @@
+{
+  "nuclei": {
+    "file": "nuclei_3.11.1_windows_amd64.zip",
+    "source": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_amd64.zip",
+    "version": "v3.11.1",
+    "upstreamChecksumVerified": true
+  },
+  "httpx": {
+    "file": "httpx_1.12.0_windows_amd64.zip",
+    "source": "https://github.com/projectdiscovery/httpx/releases/download/v1.12.0/httpx_1.12.0_windows_amd64.zip",
+    "version": "v1.12.0",
+    "upstreamChecksumVerified": true
+  },
+  "dnsx": {
+    "file": "dnsx_1.3.1_windows_amd64.zip",
+    "source": "https://github.com/projectdiscovery/dnsx/releases/download/v1.3.1/dnsx_1.3.1_windows_amd64.zip",
+    "version": "v1.3.1",
+    "upstreamChecksumVerified": true
+  },
+  "subfinder": {
+    "file": "subfinder_2.17.0_windows_amd64.zip",
+    "source": "https://github.com/projectdiscovery/subfinder/releases/download/v2.17.0/subfinder_2.17.0_windows_amd64.zip",
+    "version": "v2.17.0",
+    "upstreamChecksumVerified": true
+  },
+  "ffuf": {
+    "file": "ffuf_2.3.0_windows_amd64.zip",
+    "source": "https://github.com/ffuf/ffuf/releases/download/v2.3.0/ffuf_2.3.0_windows_amd64.zip",
+    "version": "v2.3.0",
+    "upstreamChecksumVerified": true
+  },
+  "frp": {
+    "file": "frp_0.71.1_windows_amd64.zip",
+    "source": "https://github.com/fatedier/frp/releases/download/v0.71.1/frp_0.71.1_windows_amd64.zip",
+    "version": "v0.71.1",
+    "upstreamChecksumVerified": true
+  },
+  "chisel": {
+    "file": "chisel_1.12.0_windows_amd64.zip",
+    "source": "https://github.com/jpillora/chisel/releases/download/v1.12.0/chisel_1.12.0_windows_amd64.zip",
+    "version": "v1.12.0",
+    "upstreamChecksumVerified": true
+  },
+  "fscan": {
+    "file": "fscan_2.2.2_windows_x64.exe",
+    "source": "https://github.com/shadow1ng/fscan/releases/download/v2.2.2/fscan_2.2.2_windows_x64.exe",
+    "version": "v2.2.2",
+    "upstreamChecksumVerified": true
+  },
+  "gogo": {
+    "file": "gogo_windows_amd64.exe",
+    "source": "https://github.com/chainreactors/gogo/releases/download/v2.15.0/gogo_windows_amd64.exe",
+    "version": "v2.15.0",
+    "upstreamChecksumVerified": true
+  },
+  "suo5": {
+    "file": "suo5-windows-amd64.exe",
+    "source": "https://github.com/zema1/suo5/releases/download/v2.2.0/suo5-windows-amd64.exe",
+    "version": "v2.2.0",
+    "upstreamChecksumVerified": false
+  },
+  "masscan": {
+    "file": "masscan-local-windows.zip",
+    "source": "https://github.com/robertdavidgraham/masscan/tree/1.3.2",
+    "version": "1.3.2-local-v143"
+  },
+  "ksubdomain": {
+    "file": "ksubdomain-local-windows.zip",
+    "source": "https://github.com/knownsec/ksubdomain/releases/tag/v0.7",
+    "version": "0.7"
+  }
+}

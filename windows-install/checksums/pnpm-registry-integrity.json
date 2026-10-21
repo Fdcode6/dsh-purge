@@ -1,0 +1,23 @@
+{
+  "name": "pnpm",
+  "version": "11.25.0",
+  "dist": {
+    "shasum": "154acef3dae2922147e76249ae8cae7c3183c211",
+    "tarball": "https://registry.npmjs.org/pnpm/-/pnpm-11.25.0.tgz",
+    "fileCount": 455,
+    "integrity": "sha512-XN6SW08HX3Jetx+64YpC/+eEUkeJ8ZthxzHLhyHsKKruFg4BqNWvT+2ypCzb8wDv4j2zVrDUoXtNY+EfirfJVg==",
+    "signatures": [
+      {
+        "sig": "MEQCIG1s8MYOOtOsFvXABSqlLfMzctzUZYkfuims0EL1kixlAiB104r2XvW2tMQfjnFjhjfAV0NVO6uq7Gz/6YhrZU0piQ==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/pnpm@11.25.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 20297324
+  }
+}

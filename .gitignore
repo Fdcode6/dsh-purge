@@ -35,3 +35,10 @@ default-prompt-inject.md
 /official-harness-payload.7z
 *.asar
 *.asar.bak
+
+# Windows offline bundle; oversized installer is reconstructed from parts
+!windows-install/runtime/*.tgz
+windows-install/**/__pycache__/
+windows-install/**/*.pyc
+
+/windows-install/installers/deepseek-harness-*.exe
