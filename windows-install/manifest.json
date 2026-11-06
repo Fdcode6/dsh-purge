@@ -60,13 +60,18 @@
     },
     {
       "path": "docs/Windows安装与环境配置指南.md",
-      "size": 41232,
-      "sha256": "1a4d0c39ee460a6cac87ecfc428e7e9744adedbdb138d358eb469feed224a9df"
+      "size": 41632,
+      "sha256": "0fc5670e15c487bbfcb44896cab4561fb06f01ffd54e7ba3e22528b7164c02c6"
     },
     {
       "path": "docs/打包验证结果.md",
-      "size": 3898,
-      "sha256": "7a8825ee8a4286a2431f25971699871ffe08008d692d1579b1c01b2654ed3ac7"
+      "size": 4128,
+      "sha256": "530fc3b1d63518fc9179546ab8010f05a99a275352dc58cedf71670683c6ff46"
+    },
+    {
+      "path": "docs/插件更新锁定说明.md",
+      "size": 2504,
+      "sha256": "6c24b1858ebfdfe5435542c8ada62e10b94f05b00fce72c882dca025e7bf837e"
     },
     {
       "path": "docs/文件来源.md",
@@ -240,8 +245,8 @@
     },
     {
       "path": "README.md",
-      "size": 6851,
-      "sha256": "b24b5d84ac2c7b2e794b375aaeb35c41b9f3b5417a24f9f548c5e8cc791c6835"
+      "size": 7256,
+      "sha256": "62957e57c5bb9d5562b40101e87648f9b07a51c067fc2c96e5b46c1bfc801029"
     },
     {
       "path": "runtime/node-v26.8.1-win-x64.zip",
@@ -264,9 +269,14 @@
       "sha256": "e11f95afb9b01dbb6e547e75e4e29b259b67d2c9bc352a750accccf017a98c3c"
     },
     {
+      "path": "scripts/lock_updates.py",
+      "size": 2579,
+      "sha256": "13bea94c0f534ab10601a7cb7f5066a4d74e1cd89a6027566d20bceea69fab82"
+    },
+    {
       "path": "scripts/offline_setup.py",
-      "size": 9972,
-      "sha256": "6bee983166a1f79bfcbd8362c5c6d758dfdd56285b9790f6377161c672782075"
+      "size": 10036,
+      "sha256": "28ae94cd759dde2671982d815b233eaf2cb6034944b7c6d8efe43612127d524d"
     },
     {
       "path": "scripts/Restore-Installer.ps1",

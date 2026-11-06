@@ -90,3 +90,7 @@ git clone --branch windows-offline-setup https://github.com/Fdcode6/dsh-purge.gi
 ## 红队模式加载失败修复
 
 若出现 `toolFilter is no longer supported`，请看 [红队预设加载修复](docs/红队预设加载修复.md)。新安装的菜单 4 已包含修复；已有安装可单独运行修复脚本，无需重装工具环境。本机已重启确认 `ok=true`、`broken=null`，完整演练任务尚未验证。
+
+## 2026-11-06：禁止在线覆盖本地修复
+
+本离线包已关闭插件的内置更新机制，安装菜单 4 自动应用更新锁。检测更新不联网，在线升级、切换版本及回退均被拒绝。已有安装需完全退出并重开 Harness。此锁不控制官方宿主自身升级。操作、验证和维护边界见 [插件更新锁定说明](docs/插件更新锁定说明.md)。

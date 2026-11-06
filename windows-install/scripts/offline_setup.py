@@ -101,6 +101,7 @@ def configure(root,cache,nmap_override=None):
     run([node,pnpm,'install','--offline','--ignore-scripts','--config.auto-install-peers=false','--config.node-linker=hoisted'],cwd=profile,env=env)
     run([sys.executable,BUNDLE/'scripts/fix_cwd.py',root])
     run([sys.executable,BUNDLE/'scripts/fix_preset.py',root])
+    run([sys.executable,BUNDLE/'scripts/lock_updates.py',root])
     for p in [plugin,profile/'node_modules/dsh-purge']:
         run([node,'--check',p/'lib/redteam/index.js'])
         run([node,'--check',p/'lib/redteam/preset-compat.js'])
