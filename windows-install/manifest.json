@@ -4,6 +4,16 @@
   "target": "Windows x64 / CPython 3.13",
   "files": [
     {
+      "path": "README.md",
+      "size": 7611,
+      "sha256": "2d9f106435c71538d63198ecb145b67af9a8f822a0fb89e541b6e4824f526ccd"
+    },
+    {
+      "path": "Start-Windows-Setup.cmd",
+      "size": 106,
+      "sha256": "293a44fbe36d5e214cdbf4c55a78eb0ebe55bd41b0911989bad743533e2111fa"
+    },
+    {
       "path": "checksums/checksums.txt",
       "size": 4430,
       "sha256": "6fceb7f75a71341b590853cdbd0a571c68168d5992c5dcec1f4d7a473a612786"
@@ -60,8 +70,13 @@
     },
     {
       "path": "docs/Windows安装与环境配置指南.md",
-      "size": 41632,
-      "sha256": "0fc5670e15c487bbfcb44896cab4561fb06f01ffd54e7ba3e22528b7164c02c6"
+      "size": 41982,
+      "sha256": "024e7b9c922e525fcc6f995834784c36de8861afca11226a16b1c422c8aa8be9"
+    },
+    {
+      "path": "docs/官方桌面端更新关闭说明.md",
+      "size": 1869,
+      "sha256": "860a7383ce2ae6859a7f7c9f89254d759b7b1dbc263d7675b422ae34d91381b1"
     },
     {
       "path": "docs/打包验证结果.md",
@@ -244,11 +259,6 @@
       "sha256": "6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab"
     },
     {
-      "path": "README.md",
-      "size": 7256,
-      "sha256": "62957e57c5bb9d5562b40101e87648f9b07a51c067fc2c96e5b46c1bfc801029"
-    },
-    {
       "path": "runtime/node-v26.8.1-win-x64.zip",
       "size": 41368195,
       "sha256": "57693d8e93d1b04e7b7de46aca53ecd63e97564e73de36a68428d7ff08d83587"
@@ -257,6 +267,21 @@
       "path": "runtime/pnpm-11.25.0.tgz",
       "size": 5116259,
       "sha256": "33dd0748f27e7916c4f1c8b6943461983e3453b06bbda6312a6280130b4881e5"
+    },
+    {
+      "path": "scripts/Disable-Harness-Updates.ps1",
+      "size": 1459,
+      "sha256": "c07000a0f669c94e13cfeb165683c28fd81b610e835e1415d3ad2c637b770760"
+    },
+    {
+      "path": "scripts/Restore-Installer.ps1",
+      "size": 1915,
+      "sha256": "4873a3a85b588f520fe0011020643caa4b160d6861fae3c3fc8c65d93605bf84"
+    },
+    {
+      "path": "scripts/Start-Setup.ps1",
+      "size": 5115,
+      "sha256": "27477e70bd753b23d183e1bf133bf200b3f6615790fc7b72950dbe4fdd217a48"
     },
     {
       "path": "scripts/fix_cwd.py",
@@ -279,16 +304,6 @@
       "sha256": "28ae94cd759dde2671982d815b233eaf2cb6034944b7c6d8efe43612127d524d"
     },
     {
-      "path": "scripts/Restore-Installer.ps1",
-      "size": 1915,
-      "sha256": "4873a3a85b588f520fe0011020643caa4b160d6861fae3c3fc8c65d93605bf84"
-    },
-    {
-      "path": "scripts/Start-Setup.ps1",
-      "size": 4401,
-      "sha256": "bb70374953a75c1789386e365272b7f156f79ac9674e2fe94c67b2d121a18d8f"
-    },
-    {
       "path": "sources/dsh-purge-1.1.71-original.tar.gz",
       "size": 2076146,
       "sha256": "bb5d6bb838ed3ba253d97c184af3e9f0d44e126babb90ea98e00db5d67128c55"
@@ -297,11 +312,6 @@
       "path": "sources/masscan-1.3.2-patched-source.zip",
       "size": 540571,
       "sha256": "77854710cbc185b5fec7f308ecea5cfa8a0aa7496156cfbfb395bbff0eeffd3d"
-    },
-    {
-      "path": "Start-Windows-Setup.cmd",
-      "size": 106,
-      "sha256": "293a44fbe36d5e214cdbf4c55a78eb0ebe55bd41b0911989bad743533e2111fa"
     },
     {
       "path": "tools/chisel_1.12.0_windows_amd64.zip",

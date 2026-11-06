@@ -31,6 +31,13 @@ function Start-Installer([string]$name) {
     Write-Host "Installer exit: $($p.ExitCode). Verify the application/driver separately."
 }
 
+function Disable-HarnessUpdates {
+    $defaultInstall = Join-Path $env:LOCALAPPDATA 'Programs\DeepSeek Harness'
+    $installDir = Read-Host "Harness install directory (Enter for $defaultInstall)"
+    if ([string]::IsNullOrWhiteSpace($installDir)) { $installDir = $defaultInstall }
+    & (Join-Path $PSScriptRoot 'Disable-Harness-Updates.ps1') -InstallDir $installDir
+}
+
 function Find-Python313 {
     $candidates = @(
         (Join-Path $env:LOCALAPPDATA 'Programs\Python\Python313\python.exe'),
@@ -59,12 +66,18 @@ while ($true) {
     Write-Host '3 - Install Nmap 7.992 / Npcap (interactive)'
     Write-Host '4 - Configure plugin, cwd fix and all local tools (offline)'
     Write-Host '5 - Verify the 15 local tools'
+    Write-Host '6 - Disable official Harness desktop updates (fully exit it first)'
     Write-Host '0 - Exit'
     $choice = Read-Host 'Choose'
     try {
         switch ($choice) {
             '1' { Start-Installer 'python-3.13.1-amd64.exe' }
-            '2' { Start-Installer 'deepseek-harness-0.2.1-rc.2-win-x64.exe' }
+            '2' {
+                Write-Host 'At the installer finish screen, UNCHECK Launch DeepSeek Harness. Then this menu disables its update source.'
+                Start-Installer 'deepseek-harness-0.2.1-rc.2-win-x64.exe'
+                Disable-HarnessUpdates
+            }
+            '6' { Disable-HarnessUpdates }
             '3' { Start-Installer 'nmap-7.992-setup.exe' }
             { $_ -eq '4' -or $_ -eq '5' } {
                 $python = Find-Python313
@@ -77,7 +90,7 @@ while ($true) {
                 if ($LASTEXITCODE -ne 0) { throw 'Setup/verification failed. Read the error; do not mark it complete.' }
             }
             '0' { return }
-            default { Write-Host 'Choose 0 through 5.' }
+            default { Write-Host 'Choose 0 through 6.' }
         }
     } catch { Write-Host $_.Exception.Message -ForegroundColor Red }
 }
